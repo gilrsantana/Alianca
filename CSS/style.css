@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color:#2D2E34;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#logo {
+    width: 200px;
+    color: white;
+    padding-top: 18px;
+    padding-left: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5.5em;
+    
+}
+
+#logo img {
+    width: 200px;
+}
+
+header ul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    list-style: none;
+    text-transform: uppercase;
+    background: #000;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    line-height: 5em;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 32px 40px;
+}
+
+header a:hover {
+    background-color: darkgray;
+    color: #000;
+}
+
+#topo {
+    text-align: center;
+    color: #FFF;
+    font-style: italic;
+    line-height: 4em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#main {
+    width: 90%;
+    margin: auto;
+    transition: width 1px;
+}
+
+#automotivo,
+#acessorio,
+#casa {
+    width: 33.333%;
+    height: 80vh;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    line-height: 80vh;
+    background-size: cover;
+}
+
+#automotivo {
+    background-image: url("../Images/automotivo1.jpg");
+}
+
+#acessorio {
+    background-image: url("../Images/acessorio1.jpg");
+}
+
+#casa {
+    background-image: url("../Images/casa3.jpg");
+}
+
+#main a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 5em;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#automotivo a:hover { 
+    color: #000;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 30px 60px 200px inset;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+#acessorio a:hover {
+    color: #000;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 30px 60px 200px inset;
+    font-size: 5em;
+    font-weight: 900;
+
+}
+
+#casa a:hover {
+    color: #000;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 30px 60px 200px inset;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    
+    bottom: 0;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+}
+

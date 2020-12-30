@@ -34,7 +34,7 @@ body {
 }
 
 header ul {
-    position: fixed;
+    
     width: 100%;
     top: 0;
     list-style: none;
@@ -56,9 +56,20 @@ header a {
     padding: 32px 40px;
 }
 
+body#home #home,
+body#servicos #servicos,
+body#sobre #sobre,
+body#contato #contato,
 header a:hover {
     background-color: darkgray;
     color: #000;
+}
+
+body#home #home,
+body#servicos #servicos,
+body#sobre #sobre,
+body#contato #contato {
+    cursor: vertical-text;
 }
 
 #topo {
@@ -135,6 +146,54 @@ header a:hover {
     font-size: 5em;
     font-weight: 900;
 }
+
+.box {
+    width: 60%;
+    border: 1px solid #fff;
+    background-color: #000;
+    margin-left: 20%;
+    margin-bottom: 2.5%;
+    float: left;
+    color: #fff;
+}
+
+.box:hover {
+    box-shadow: 1px 3px 15px 15px rgba(255,255,255,0.2);
+}
+
+.box-s {
+    width: 35%;
+    padding: 10px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+}
+
+.box-s img {
+    height: 100%;
+}
+
+.box-l {
+    width: 45%;
+    float: right;
+    padding: 5%;  
+}
+
+.box-l h2 {
+    padding: 20px 0;
+}
+
+.box-l p {
+    padding: 10px 0;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.box-l ul {
+    margin-left: 10%;
+    line-height: 1.5em;
+}
+
 
 /**************************************************/
 /********************* Footer *********************/
@@ -245,6 +304,11 @@ footer .fab {
     }
     footer li {
         margin: 20px;
+    }
+
+    .box {
+        width: 95%;
+        margin-left: 2%;
     }
 }
 

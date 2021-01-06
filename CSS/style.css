@@ -26,7 +26,7 @@ body {
     background-color: #fff;
     border-radius: 50%;
     margin: auto;
-    margin-top: 5.5em;
+    margin-top: 1em;
 }
 
 #logo img {
@@ -306,10 +306,6 @@ footer .fab {
         padding: 12px 80px;
     }
 
-    #logo {
-        margin-top: 12em;
-    }
-
     header ul li {
         line-height: 3em;
     }
@@ -324,10 +320,6 @@ footer .fab {
 }
 
 @media screen and (max-width: 320px){
-
-    #logo {
-        margin-top: 12em;
-    }
 
     #topo h1 {
         font-size: 1em;

@@ -194,6 +194,17 @@ body#contato #contato {
     line-height: 1.5em;
 }
 
+.fab {
+    font-size: 5em;
+}
+
+.fa-whatsapp-square.fab {
+    color: #34af23;
+    font-size: 5em;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
 
 /**************************************************/
 /********************* Footer *********************/
